@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import './NoPhoneMsg.css'
 
 export default function NoPhoneMsg() {
     return (
@@ -6,7 +7,7 @@ export default function NoPhoneMsg() {
             <i className="fas fa-mobile-alt" />
             <h2>No Phones Available</h2>
             <p>There are currently no phones to display.</p>
-            <Link to="product/create" className="btn primary-btn">
+            <Link to="/product/create" className="btn primary-btn">
                 Add New Phone
             </Link>
         </div>
