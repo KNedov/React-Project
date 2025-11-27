@@ -9,12 +9,12 @@ export default function Login() {
 
                 <form className="login-form" action="/login" method="POST">
                     <div className="form-group">
-                        <label for="email">Email Address</label>
+                        <label htmlFor="email">Email Address</label>
                         <input type="email" id="email" name="email" required placeholder="Enter your email" />
                     </div>
 
                     <div className="form-group">
-                        <label for="password">Password</label>
+                        <label htmlFor="password">Password</label>
                         <input type="password" id="password" name="password" required placeholder="Enter your password" />
                     </div>
 
