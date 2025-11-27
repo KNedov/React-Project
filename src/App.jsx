@@ -5,6 +5,7 @@ import Header from './components/header/Header.jsx'
 import Home from './components/home/Home.jsx'
 import CreateProduct from './components/create-product/CreateProduct.jsx'
 import Catalog from './components/catalog/Catalog.jsx'
+import MyProducts from './components/my-products/MyProducts.jsx'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/product/create" element={<CreateProduct />} />
         <Route path="/catalog" element={<Catalog />} />
+        <Route path="/my-products" element={<MyProducts />} />
       
       </Routes>
       <Footer/>

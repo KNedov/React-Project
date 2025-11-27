@@ -2,7 +2,7 @@ import './ProductCard.css'
 
 export default function ProductCard() {
     return(
-
+        <div className="phones-grid" id="phones-container">
         <div className="phone-card">
         <div className="phone-image">
           <img
@@ -27,6 +27,7 @@ export default function ProductCard() {
             <p>No comments yet</p>
           </div>
         </div>
+      </div>
       </div>
     )
 }
