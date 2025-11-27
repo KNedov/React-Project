@@ -3,6 +3,7 @@ import './App.css'
 import Footer from './components/footer/Footer.jsx'
 import Header from './components/header/Header.jsx'
 import Home from './components/home/Home.jsx'
+import CreateProduct from './components/create-product/CreateProduct.jsx'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/product/create" element={<CreateProduct />} />
       
       </Routes>
       <Footer/>
