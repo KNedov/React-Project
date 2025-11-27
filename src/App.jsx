@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer.jsx'
 import Header from './components/header/Header.jsx'
 import Home from './components/home/Home.jsx'
 import CreateProduct from './components/create-product/CreateProduct.jsx'
+import Catalog from './components/catalog/Catalog.jsx'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product/create" element={<CreateProduct />} />
+        <Route path="/catalog" element={<Catalog />} />
       
       </Routes>
       <Footer/>

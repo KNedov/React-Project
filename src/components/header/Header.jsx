@@ -46,7 +46,7 @@ export default function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/products">
+                            <Link to="/catalog">
                                 <i className="fas fa-mobile-alt" />
                                 Products
                             </Link>
