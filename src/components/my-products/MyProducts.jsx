@@ -5,10 +5,10 @@ import './MyProducts.css'
 export default function MyProducts() {
     return (
         <>
-            <div class="my-phones">
+            <div className="my-phones">
                 <h2>My Phones Collection</h2>
                 <div className="container">
-            <div class="phones-grid">
+            <div className="phones-grid">
                 <ProductCard/>
                 <ProductCard/>
                 <ProductCard/>
